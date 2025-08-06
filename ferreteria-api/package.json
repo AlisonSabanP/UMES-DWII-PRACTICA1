@@ -1,0 +1,23 @@
+{
+  "name": "ferreteria-api",
+  "version": "1.0.0",
+  "description": "Practica 1 programación web",
+  "homepage": "https://github.com/AlisonSabanP/UMES-DWII-PRACTICA1#readme",
+  "bugs": {
+    "url": "https://github.com/AlisonSabanP/UMES-DWII-PRACTICA1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlisonSabanP/UMES-DWII-PRACTICA1.git"
+  },
+  "license": "ISC",
+  "author": "Alison Saban",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
