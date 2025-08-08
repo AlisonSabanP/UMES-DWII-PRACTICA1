@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "fecha": "15/04/2024",
+        "cliente_id": 1,
+        "trabajador_id": 2,
+        "productos": [
+        { "producto_id": 1, "cantidad": 1, "precio_unitario": 450 },
+        { "producto_id": 6, "cantidad": 3, "precio_unitario": 45 }
+        ],
+        "total": 585,
+        "metodo_pago": "efectivo",
+        "estado": "completada"
+    },
+    {
+        "id": 2,
+        "fecha": "16/04/2024",
+        "cliente_id": 3,
+        "trabajador_id": 3,
+        "productos": [
+        { "producto_id": 3, "cantidad": 100, "precio_unitario": 1.5 },
+        { "producto_id": 7, "cantidad": 1, "precio_unitario": 60 }
+        ],
+        "total": 210,
+        "metodo_pago": "tarjeta",
+        "estado": "completada"
+    },
+    {
+        "id": 3,
+        "fecha": "17/04/2024",
+        "cliente_id": 5,
+        "trabajador_id": 2,
+        "productos": [
+        { "producto_id": 2, "cantidad": 2, "precio_unitario": 180 }
+        ],
+        "total": 360,
+        "metodo_pago": "efectivo",
+        "estado": "completada"
+    },
+    {
+        "id": 4,
+        "fecha": "18/04/2024",
+        "cliente_id": 2,
+        "trabajador_id": 8,
+        "productos": [
+        { "producto_id": 4, "cantidad": 1, "precio_unitario": 320 }
+        ],
+        "total": 320,
+        "metodo_pago": "transferencia",
+        "estado": "completada"
+    },
+    {
+        "id": 5,
+        "fecha": "19/04/2024",
+        "cliente_id": 7,
+        "trabajador_id": 3,
+        "productos": [
+        { "producto_id": 5, "cantidad": 2, "precio_unitario": 85 },
+        { "producto_id": 9, "cantidad": 3, "precio_unitario": 25 }
+        ],
+        "total": 245,
+        "metodo_pago": "efectivo",
+        "estado": "completada"
+    },
+    {
+        "id": 6,
+        "fecha": "20/04/2024",
+        "cliente_id": 4,
+        "trabajador_id": 2,
+        "productos": [
+        { "producto_id": 8, "cantidad": 5, "precio_unitario": 35 }
+        ],
+        "total": 175,
+        "metodo_pago": "efectivo",
+        "estado": "completada"
+    },
+    {
+        "id": 7,
+        "fecha": "21/04/2024",
+        "cliente_id": 9,
+        "trabajador_id": 7,
+        "productos": [
+        { "producto_id": 10, "cantidad": 4, "precio_unitario": 75 }
+        ],
+        "total": 300,
+        "metodo_pago": "tarjeta",
+        "estado": "completada"
+    },
+    {
+        "id": 8,
+        "fecha": "22/04/2024",
+        "cliente_id": 6,
+        "trabajador_id": 8,
+        "productos": [
+        { "producto_id": 3, "cantidad": 50, "precio_unitario": 1.5 },
+        { "producto_id": 6, "cantidad": 2, "precio_unitario": 45 }
+        ],
+        "total": 165,
+        "metodo_pago": "efectivo",
+        "estado": "completada"
+    },
+    {
+        "id": 9,
+        "fecha": "23/04/2024",
+        "cliente_id": 8,
+        "trabajador_id": 2,
+        "productos": [
+        { "producto_id": 1, "cantidad": 1, "precio_unitario": 450 },
+        { "producto_id": 2, "cantidad": 1, "precio_unitario": 180 }
+        ],
+        "total": 630,
+        "metodo_pago": "tarjeta",
+        "estado": "completada"
+    },
+    {
+        "id": 10,
+        "fecha": "24/04/2024",
+        "cliente_id": 10,
+        "trabajador_id": 3,
+        "productos": [
+        { "producto_id": 7, "cantidad": 1, "precio_unitario": 60 },
+        { "producto_id": 9, "cantidad": 1, "precio_unitario": 25 }
+        ],
+        "total": 85,
+        "metodo_pago": "efectivo",
+        "estado": "completada"
+    }
+]

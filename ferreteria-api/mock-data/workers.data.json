@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "nombre": "Roberto Antonio Pérez",
+        "puesto": "Gerente General",
+        "fechaContratacion": "15/02/2018",
+        "salario": 12000,
+        "direccion": {
+        "pais": "Guatemala",
+        "departamento": "Guatemala",
+        "municipio": "Mixco",
+        "direccion": "Colonia Jardines del Valle, Calle 5 3-15"
+        },
+        "telefonos": [
+        { "codigoArea": 502, "numero": "50012345", "tipo": "Celular personal" }
+        ],
+        "email": "roberto.perez@ferreteriacentral.com",
+        "activo": true
+    },
+    {
+        "id": 2,
+        "nombre": "Lucía Esperanza Morales",
+        "puesto": "Cajera",
+        "fechaContratacion": "10/06/2020",
+        "salario": 4500,
+        "direccion": {
+        "pais": "Guatemala",
+        "departamento": "Villa Nueva",
+        "municipio": "Villa Nueva",
+        "direccion": "Zona 3, Calle Principal 8-20"
+        },
+        "telefonos": [
+        { "codigoArea": 502, "numero": "50023456", "tipo": "Celular personal" }
+        ],
+        "email": "lucia.morales@ferreteriacentral.com",
+        "activo": true
+    },
+    {
+        "id": 3,
+        "nombre": "Miguel Ángel Ruiz",
+        "puesto": "Vendedor de mostrador",
+        "fechaContratacion": "03/09/2019",
+        "salario": 4800,
+        "direccion": {
+        "pais": "Guatemala",
+        "departamento": "San Miguel Petapa",
+        "municipio": "San Miguel Petapa",
+        "direccion": "Avenida Reforma 12-30, Zona 1"
+        },
+        "telefonos": [
+        { "codigoArea": 502, "numero": "50034567", "tipo": "Celular personal" }
+        ],
+        "email": "miguel.ruiz@ferreteriacentral.com",
+        "activo": true
+    },
+    {
+        "id": 4,
+        "nombre": "Diana Elizabeth López",
+        "puesto": "Encargada de inventario",
+        "fechaContratacion": "22/11/2021",
+        "salario": 5200,
+        "direccion": {
+        "pais": "Guatemala",
+        "departamento": "Villa Nueva",
+        "municipio": "Villa Nueva",
+        "direccion": "Colonia Las Flores, Calle 7 4-11"
+        },
+        "telefonos": [
+        { "codigoArea": 502, "numero": "50045678", "tipo": "Celular personal" }
+        ],
+        "email": "diana.lopez@ferreteriacentral.com",
+        "activo": true
+    },
+    {
+        "id": 5,
+        "nombre": "Héctor Daniel Méndez",
+        "puesto": "Técnico de mantenimiento",
+        "fechaContratacion": "18/01/2022",
+        "salario": 5500,
+        "direccion": {
+        "pais": "Guatemala",
+        "departamento": "San Juan Sacatepéquez",
+        "municipio": "San Juan Sacatepéquez",
+        "direccion": "Carretera a Palín, Km 12.5"
+        },
+        "telefonos": [
+        { "codigoArea": 502, "numero": "50056789", "tipo": "Celular personal" }
+        ],
+        "email": "hector.mendez@ferreteriacentral.com",
+        "activo": true
+    },
+    {
+        "id": 6,
+        "nombre": "Andrea Vanessa Castro",
+        "puesto": "Asistente administrativo",
+        "fechaContratacion": "05/04/2021",
+        "salario": 4700,
+        "direccion": {
+        "pais": "Guatemala",
+        "departamento": "Guatemala",
+        "municipio": "Guatemala",
+        "direccion": "Zona 10, Calle 10 2-15"
+        },
+        "telefonos": [
+        { "codigoArea": 502, "numero": "50067890", "tipo": "Celular personal" }
+        ],
+        "email": "andrea.castro@ferreteriacentral.com",
+        "activo": true
+    },
+    {
+        "id": 7,
+        "nombre": "Fernando José Ramírez",
+        "puesto": "Auxiliar de bodega",
+        "fechaContratacion": "12/07/2022",
+        "salario": 4200,
+        "direccion": {
+        "pais": "Guatemala",
+        "departamento": "Villa Nueva",
+        "municipio": "Villa Nueva",
+        "direccion": "Barrio San Antonio, Calle 2 4-09"
+        },
+        "telefonos": [
+        { "codigoArea": 502, "numero": "50078901", "tipo": "Celular personal" }
+        ],
+        "email": "fernando.ramirez@ferreteriacentral.com",
+        "activo": true
+    },
+    {
+        "id": 8,
+        "nombre": "Gabriela Marroquín",
+        "puesto": "Vendedora especializada",
+        "fechaContratacion": "20/03/2020",
+        "salario": 5000,
+        "direccion": {
+        "pais": "Guatemala",
+        "departamento": "Mixco",
+        "municipio": "Mixco",
+        "direccion": "Residencial Los Pinos, Casa 12"
+        },
+        "telefonos": [
+        { "codigoArea": 502, "numero": "50089012", "tipo": "Celular personal" }
+        ],
+        "email": "gabriela.marroquin@ferreteriacentral.com",
+        "activo": true
+    },
+    {
+        "id": 9,
+        "nombre": "Oscar Eduardo Méndez",
+        "puesto": "Contador",
+        "fechaContratacion": "01/08/2019",
+        "salario": 9500,
+        "direccion": {
+        "pais": "Guatemala",
+        "departamento": "Guatemala",
+        "municipio": "Guatemala",
+        "direccion": "Zona 1, Calle 5 1-20"
+        },
+        "telefonos": [
+        { "codigoArea": 502, "numero": "50090123", "tipo": "Celular personal" }
+        ],
+        "email": "oscar.mendez@ferreteriacentral.com",
+        "activo": true
+    },
+    {
+        "id": 10,
+        "nombre": "Lizeth Carolina Pérez",
+        "puesto": "Auxiliar de compras",
+        "fechaContratacion": "10/10/2021",
+        "salario": 4600,
+        "direccion": {
+        "pais": "Guatemala",
+        "departamento": "San Juan Sacatepéquez",
+        "municipio": "San Juan Sacatepéquez",
+        "direccion": "Zona 2, Calle 3 5-11"
+        },
+        "telefonos": [
+        { "codigoArea": 502, "numero": "50101122", "tipo": "Celular personal" }
+        ],
+        "email": "lizeth.perez@ferreteriacentral.com",
+        "activo": true
+    }
+]
