@@ -1,4 +1,4 @@
-[
+export let clients = [
     {
         "id": 1,
         "nombre": "Alison Saban Piche",

@@ -1,4 +1,4 @@
-[
+export let product = [
     {
         "id": 1,
         "nombre": "Taladro Percutor 800W",

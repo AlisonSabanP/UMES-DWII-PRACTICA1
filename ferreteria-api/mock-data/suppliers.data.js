@@ -1,4 +1,4 @@
-[
+export let suppliers = [
     {
         "id": 1,
         "nombre": "Distribuidora Nacional de Herramientas S.A.",

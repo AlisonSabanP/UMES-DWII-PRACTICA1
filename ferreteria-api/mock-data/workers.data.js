@@ -1,4 +1,4 @@
-[
+export let workers = [
     {
         "id": 1,
         "nombre": "Roberto Antonio Pérez",
