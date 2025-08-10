@@ -1,0 +1,426 @@
+{
+	"info": {
+		"_postman_id": "5baa9669-f89b-4377-a806-f1c8c8c9769b",
+		"name": "ferreteria-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45058863",
+		"_collection_link": "https://alisonsaban.postman.co/workspace/Alison-Saban's-Workspace~0fb14a31-d40b-46b7-8893-8b023f743295/collection/45058863-5baa9669-f89b-4377-a806-f1c8c8c9769b?action=share&source=collection_link&creator=45058863"
+	},
+	"item": [
+		{
+			"name": "workers",
+			"item": [
+				{
+					"name": "workers",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3001/workers",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"workers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "workers",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n        \"id\": 11,\r\n        \"nombre\": \"Samantha Rivera\",\r\n        \"puesto\": \"Gerente General\",\r\n        \"fechaContratacion\": \"15/02/2018\",\r\n        \"salario\": 12000,\r\n        \"direccion\": {\r\n        \"pais\": \"Guatemala\",\r\n        \"departamento\": \"Guatemala\",\r\n        \"municipio\": \"Mixco\",\r\n        \"direccion\": \"Colonia Jardines del Valle, Calle 5 3-15\"\r\n        },\r\n        \"telefonos\": [\r\n        { \"codigoArea\": 502, \"numero\": \"50012345\", \"tipo\": \"Celular personal\" }\r\n        ],\r\n        \"email\": \"roberto.perez@ferreteriacentral.com\",\r\n        \"activo\": true\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/workers",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"workers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "workers",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": 1,\r\n        \"nombre\": \"Roberto Antonio Pérez\",\r\n        \"puesto\": \"Gerente General\",\r\n        \"fechaContratacion\": \"15/02/2018\",\r\n        \"salario\": 12000,\r\n        \"direccion\": {\r\n        \"pais\": \"Guatemala\",\r\n        \"departamento\": \"Guatemala\",\r\n        \"municipio\": \"Mixco\",\r\n        \"direccion\": \"Colonia Jardines del Valle, Calle 5 3-15\"\r\n        },\r\n        \"telefonos\": [\r\n        { \"codigoArea\": 502, \"numero\": \"50012345\", \"tipo\": \"Celular personal\" }\r\n        ],\r\n        \"email\": \"roberto.perez@ferreteriacentral.com\",\r\n        \"activo\": true\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/workers/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"workers",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "workers",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3001/workers/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"workers",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "suppliers",
+			"item": [
+				{
+					"name": "suppliers",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"nombre\": \"Roberto Antonio Pérez Actualizado\",\r\n  \"puesto\": \"Gerente General\",\r\n  \"fechaContratacion\": \"15/02/2018\",\r\n  \"salario\": 13000,\r\n  \"direccion\": {\r\n    \"pais\": \"Guatemala\",\r\n    \"departamento\": \"Guatemala\",\r\n    \"municipio\": \"Mixco\",\r\n    \"direccion\": \"Colonia Jardines del Valle, Calle 5 3-15\"\r\n  },\r\n  \"telefonos\": [\r\n    { \"codigoArea\": 502, \"numero\": \"50012345\", \"tipo\": \"Celular personal\" }\r\n  ],\r\n  \"email\": \"roberto.perez@ferreteriacentral.com\",\r\n  \"activo\": true\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3001/suppliers",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"suppliers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "suppliers",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n                \"id\": 11,\r\n                \"nombre\": \"Distribuidora Nacional de Herramientas S.A.\",\r\n                \"nit\": \"123456-7\",\r\n                \"direccion\": {\r\n                    \"pais\": \"Guatemala\",\r\n                    \"departamento\": \"Guatemala\",\r\n                    \"municipio\": \"Guatemala\",\r\n                    \"direccion\": \"Zona Industrial, Carretera al Pacífico Km 18\"\r\n                },\r\n                \"telefonos\": [\r\n                    {\r\n                        \"codigoArea\": 502,\r\n                        \"numero\": \"22551000\",\r\n                        \"tipo\": \"Oficina\"\r\n                    },\r\n                    {\r\n                        \"codigoArea\": 502,\r\n                        \"numero\": \"50001111\",\r\n                        \"tipo\": \"Contacto comercial\"\r\n                    }\r\n                ],\r\n                \"email\": \"ventas@dnher.com.gt\",\r\n                \"representante\": \"Ing. Carlos Méndez\",\r\n                \"activo\": true\r\n            }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/suppliers",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"suppliers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "suppliers",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": 1,\r\n        \"nombre\": \"Distribuidora Nacional de Herramientas S.A.\",\r\n        \"nit\": \"123456-7\",\r\n        \"direccion\": {\r\n        \"pais\": \"Guatemala\",\r\n        \"departamento\": \"Guatemala\",\r\n        \"municipio\": \"Guatemala\",\r\n        \"direccion\": \"Zona Industrial, Carretera al Pacífico Km 18\"\r\n        },\r\n        \"telefonos\": [\r\n        { \"codigoArea\": 502, \"numero\": \"22551000\", \"tipo\": \"Oficina\" },\r\n        { \"codigoArea\": 502, \"numero\": \"50001111\", \"tipo\": \"Contacto comercial\" }\r\n        ],\r\n        \"email\": \"ventas@dnher.com.gt\",\r\n        \"representante\": \"Ing. Carlos Méndez\",\r\n        \"activo\": true\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/suppliers/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"suppliers",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "suppliers",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3001/suppliers/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"suppliers",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "products",
+			"item": [
+				{
+					"name": "products",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3001/products",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "products",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n                \"id\": 11,\r\n                \"nombre\": \"Taladro Percutor 800W\",\r\n                \"categoria\": \"Herramientas eléctricas\",\r\n                \"marca\": \"Bosch\",\r\n                \"modelo\": \"PSB 800\",\r\n                \"precio\": 450,\r\n                \"costo\": 320,\r\n                \"stock\": 24,\r\n                \"unidad\": \"unidad\",\r\n                \"proveedor_id\": 1,\r\n                \"codigo_barras\": \"7891234567890\",\r\n                \"activo\": true\r\n            }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/products",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "products",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n                \"id\": 1,\r\n                \"nombre\": \"Taladro Percutor 800W\",\r\n                \"categoria\": \"Herramientas eléctricas\",\r\n                \"marca\": \"Bosch\",\r\n                \"modelo\": \"PSB 800\",\r\n                \"precio\": 450,\r\n                \"costo\": 320,\r\n                \"stock\": 24,\r\n                \"unidad\": \"unidad\",\r\n                \"proveedor_id\": 1,\r\n                \"codigo_barras\": \"7891234567890\",\r\n                \"activo\": true\r\n            }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/products/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"products",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "products",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n                \"id\": 1,\r\n                \"nombre\": \"Taladro Percutor 800W\",\r\n                \"categoria\": \"Herramientas eléctricas\",\r\n                \"marca\": \"Bosch\",\r\n                \"modelo\": \"PSB 800\",\r\n                \"precio\": 450,\r\n                \"costo\": 320,\r\n                \"stock\": 24,\r\n                \"unidad\": \"unidad\",\r\n                \"proveedor_id\": 1,\r\n                \"codigo_barras\": \"7891234567890\",\r\n                \"activo\": true\r\n            }"
+						},
+						"url": {
+							"raw": "http://localhost:3001/products/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"products",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "clients",
+			"item": [
+				{
+					"name": "clients",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3001/clients",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"clients"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "clients",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": 11,\r\n        \"nombre\": \"Samantha Rivera\",\r\n        \"fechaNacimiento\": \"23/12/2002\",\r\n        \"edad\": 23,\r\n        \"direccion\": {\r\n        \"pais\": \"Guatemala\",\r\n        \"departamento\": \"Guatemala\",\r\n        \"municipio\": \"Ciudad de Guatemala\",\r\n        \"direccion\": \"6a. Avenida 1-23, Zona 18\"\r\n        },\r\n        \"telefonos\": [\r\n        {\r\n            \"codigoArea\": 502,\r\n            \"numero\": \"12345678\",\r\n            \"tipo\": \"Celular personal\"\r\n        },\r\n        {\r\n            \"codigoArea\": 502,\r\n            \"numero\": \"87654321\",\r\n            \"tipo\": \"Celular trabajo\"\r\n        },\r\n        {\r\n            \"codigoArea\": 502,\r\n            \"numero\": \"78311234\",\r\n            \"tipo\": \"Número residencial\"\r\n        }\r\n        ]\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/clients",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"clients"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "clients",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": 1,\r\n        \"nombre\": \"Samantha Rivera\",\r\n        \"fechaNacimiento\": \"23/12/2002\",\r\n        \"edad\": 23,\r\n        \"direccion\": {\r\n        \"pais\": \"Guatemala\",\r\n        \"departamento\": \"Guatemala\",\r\n        \"municipio\": \"Ciudad de Guatemala\",\r\n        \"direccion\": \"6a. Avenida 1-23, Zona 18\"\r\n        },\r\n        \"telefonos\": [\r\n        {\r\n            \"codigoArea\": 502,\r\n            \"numero\": \"12345678\",\r\n            \"tipo\": \"Celular personal\"\r\n        },\r\n        {\r\n            \"codigoArea\": 502,\r\n            \"numero\": \"87654321\",\r\n            \"tipo\": \"Celular trabajo\"\r\n        },\r\n        {\r\n            \"codigoArea\": 502,\r\n            \"numero\": \"78311234\",\r\n            \"tipo\": \"Número residencial\"\r\n        }\r\n        ]\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/clients/ 1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"clients",
+								" 1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "clients",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3001/clients/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"clients",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
