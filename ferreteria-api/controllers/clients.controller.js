@@ -1,4 +1,3 @@
-// src/controllers/clients.controller.js
 import { clients } from '../mock-data/clients.data.js';
 import Joi from 'joi';
 
@@ -26,7 +25,7 @@ const clienteSchema = Joi.object({
         }),
 });
 
-export const getClientsHandler = async (req, res) => {
+const getClientsHandler = async (req, res) => {
     try {
         return res.status(200).json({
         message: 'success',
@@ -40,7 +39,7 @@ export const getClientsHandler = async (req, res) => {
     }
 };
 
-export const postClientHandler = async (req, res) => {
+const postClientHandler = async (req, res) => {
     try {
         const newClient = req.body;
 
@@ -67,7 +66,7 @@ export const postClientHandler = async (req, res) => {
     }
 };
 
-export const putClientHandler = async (req, res) => {
+ const putClientHandler = async (req, res) => {
     try {
         const id = parseInt(req.params.id);
         const updatedClient = req.body;
@@ -100,7 +99,7 @@ export const putClientHandler = async (req, res) => {
     }
 };
 
-export const deleteClientHandler = async (req, res) => {
+ const deleteClientHandler = async (req, res) => {
     try {
         const id = parseInt(req.params.id);
         const index = clients.findIndex((c) => c.id === id);
@@ -120,3 +119,10 @@ export const deleteClientHandler = async (req, res) => {
         return res.status(500).json({ message: 'Error interno del servidor' });
     }
 };
+
+export {
+    getClientsHandler,
+    postClientHandler,
+    putClientHandler,
+    deleteClientHandler,
+}
